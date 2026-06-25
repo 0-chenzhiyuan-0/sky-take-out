@@ -11,3 +11,11 @@ sky:
     bucket-name: czyjavaweb
     endpoint: oss-cn-beijing.aliyuncs.com
     access-key-id: LTAI5t9c2pVhUtRWd4UGJvhU
+  redis:
+    host: localhost
+    port: 6379
+    password: 123456
+    database: 10
+  wechat:
+    appid: wxc40d257d5fca5970
+    secret: 398dd7253244ab5a6f36908e93def57e
