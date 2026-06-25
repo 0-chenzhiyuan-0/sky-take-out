@@ -4,3 +4,6 @@
 *.class
 *Test.java
 **/test/
+# 忽略本地开发配置，不提交远程
+application-dev.yml
+*.dev.yml
