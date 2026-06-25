@@ -40,4 +40,7 @@ public interface DishMapper {
     @Update("update dish set name = #{name}, category_id = #{categoryId}, price = #{price}, status = #{status}, description=#{description}" +
             "where id=#{id}" )
     void updateById(Dish dish);
+
+    @Select("select * from dish where category_id = #{categoryId} and status = #{status}")
+    List<Dish> list(Dish dish);
 }
